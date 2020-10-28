@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sms-service
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: c43ab919-7e7e-482a-99e2-63794fb37cb9
+        group: dev
+        file-extension: yml
